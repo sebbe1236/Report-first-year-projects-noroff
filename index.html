@@ -6,51 +6,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>First year projects</title>
+
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
     <header>
-      <h1>First year projects</h1>
+      <h1>Report first year projects by Sebastian Kvålsvoll</h1>
     </header>
     <main>
-      <h2>Cross course project</h2>
-      <div>
-        <a href="https://github.com/sebbe1236/Noroff-project-github">Github link</a>
-        <a href="https://noroffproject.netlify.app">Link to deployed site on netlify</a>
+      <div class="headerlinks">
+        <h2 class="project-headers">Cross course project:</h2>
+        <h5>
+          links:
+          <a href="https://github.com/sebbe1236/Noroff-project-github">Github link</a>
+          <a href="https://noroffproject.netlify.app">Link to deploy on netlify</a>
+        </h5>
       </div>
-      <h2>What was changed:</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <div>
-        <h2>How i changed it:</h2>
+      <section class="grid-alignment">
+        <div>
+          <h3>What was changed:</h3>
+          <ul>
+            <li>Added loader for frontpage content.</li>
+            <li>Changed font on errors message on the contact form and added padding.</li>
+            <li>Added h1`s to all pages and also fixed the checkout page so it would`nt break on mobile.</li>
+            <li>Meta descriptions also was added to the page after feedback.</li>
+            <li>The design got cleaned up a bit on with some alignments for the checkout page.</li>
+
+            <li>Button styling changed with some padding for alignment.</li>
+            <li>Image widths</li>
+            <li>Changed the colour of the pop-up message that is showed when the form is done.</li>
+            <li>Removed a extra font-face rule that was unneccecary.</li>
+            <li>
+              Changed the JS in featured to make the Price and Product description stick more out. Earlier it was only
+              paragraphs.
+            </li>
+            <li>Alignment and added more text on the about page. Also did the width on paragraphs.</li>
+            <li>About page CSS grid</li>
+            <li>Added tag property in Woocom product details.</li>
+            <li>Added more product description.</li>
+            <li>Featured.js script changed to use promise and then statements to get rid of typeerror message.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>How i changed it:</h3>
+          <ul>
+            <li>Adding the h1s was in html with adding a h1 on top of the page.</li>
+            <li>Changed the break point for the checkout page on mobile by adding some padding to the button.</li>
+            <li>Also some alignment for the button that with display:block;.</li>
+            <li>
+              Did reponsiveness for the images through 100% width on the ones who needed that by adding that property to
+              the classes/images.
+            </li>
+            <li>Changed the form button in css with background-color:green instead of red.</li>
+            <li>Edited font on contact form by setting font weight bold too see them clearer.</li>
+            <li>Did a loader with keyframes transform 360deg</li>
+            <li>Changed paragraphs width by setting pixels 550 and margin: 0 auto;</li>
+            <li>Changed JS featured with setting a h3 in the script backticks.</li>
+            <li>
+              Added the loader with styling borders and border radius. With animation spin also combined with keyframes
+              spin
+            </li>
+            <li>About page with display:grid; and grid-temp-columns:repeat() instead of flexbox.</li>
+            <li>Added the tag property in Wordpress in the woocommerce product description.</li>
+            <li>
+              Adding product description on WP in the woocommerce product description section then fetching through api.
+            </li>
+            <li>
+              rewrote the function in featured.js by removing the productfetch() inside the async function and replacing
+              it with return after then i did a .then statement instead at the bottom to make sure everything runs in
+              order.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Why i changed it:</h3>
+          <p>
+            Did some h1s for user flow on the page which changing the font for the h1 to make it stick out and site
+            hierachy. The reason for adding the loader was because the API loads a bit slow so decided to put a loader
+            there. It gave a smoother transition instead of the content just poping up out of nowhere after 3 seconds. I
+            ended up redoing the About page with CSS grid. The reason for that was making the page fill out better.
+            Before it was just two pictures with text under.
+          </p>
+          <p>
+            Now its more complete with two pictures that has articles. Changing buttons and some colors was for WCAG
+            purposes and responsiveness. Font face removed since i already had it in the head section in the html by
+            delecting from the CSS file.
+          </p>
+          <p>
+            Tried doing a lot of minor changes that didn`t change it all for the users because of what we read about
+            incremental changes in the interaction design course. I also added a new property in the Woocommerce with
+            tag so i could use that one for the frontpage and a more detailed title on the product specific page for
+            more information. Added lorum ipsum on the product description in WP woocom since before it was only 1 line
+            and that looked kind of stupid. Did change the pixel site on frontpage pictures to get rid of the big white
+            gap and fill out the page more. Also took what i learned with .then statements and rewrote some of the
+            featured JS since it returned a typeerror message in the console. Turned out it wasn`t running in the
+            correct order.
+          </p>
+        </div>
+      </section>
+      <div class="headerlinks">
+        <h2 class="project-headers">Semester Project 1 Html and CSS:</h2>
+        <h5>
+          Links:
+          <a href="https://github.com/sebbe1236/Semester-project-HTML-and-CSS-Noroff"> github link </a>
+          <a href="https://htmlcssproject.netlify.app">Link to deploy on netlify</a>
+        </h5>
       </div>
-      <div>
-        <h2>Why i did it:</h2>
+      <section class="grid-alignment">
+        <div>
+          <h3>What was changed:</h3>
+          <ul>
+            <li>Image logo size on mobile</li>
+            <li>h1 Fonts changed to Lato sans serif after tutor feedback because it was to neutral.</li>
+            <li>Changed header and footer color after tutor feedback to fit target audience</li>
+            <li>Added a own article under contact us in the get involved page for readability/aestethics.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>How i changed it:</h3>
+          <ul>
+            <li>I changed the color value on the header property in CSS.</li>
+            <li>
+              Changed the logo on mobile to smaller by removing the height property and setting widtth in % instead of
+              pixels.
+            </li>
+            <li>
+              Setting a CSS grid on the get involved page and moving the picture and articles inside their own columns
+              by having the content inside their own divs.
+            </li>
+            <li>Changed the h1 font by setting font-family Lato on that property.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Why i changed it:</h3>
+          <p>
+            The mobile logo was kind of big on the small screens so thats why i updated it after tutor feedback. Setting
+            width % was something that applied to all the images but didn`t think about the logo as a image at the time
+            i made the assignment. Changing the width in % worked better then setting it in pixels.
+          </p>
+          <p>
+            Ended up changing the h1s after tutor feedback to have tthem stick out a bit more from the other H tags. I
+            don`t know if the h1s will be better then it was before but atleast it sticks out now. So will look forward
+            to feedback on that.
+          </p>
+        </div>
+      </section>
+      <div class="headerlinks">
+        <h2 class="project-headers">Exam 1:</h2>
+        <h5>
+          Links:
+          <a href="https://github.com/sebbe1236/HTML-JS--CSS-edit-file">Github link</a>
+          <a href="https://frosty-jang-0458ea.netlify.app/">Link to deploy on netlify</a>
+        </h5>
       </div>
-      <h2>Semester Project 1 Html and CSS</h2>
-      <div>
-        <a href="https://github.com/sebbe1236/Semester-project-HTML-and-CSS-Noroff"
-          >Semester project 1 HTML and CSS github</a
-        >
-        <a href="https://htmlcssproject.netlify.app">Link to netlify site</a>
-      </div>
-      <h2>What was changed:</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <h2>How i changed it:</h2>
-      <div></div>
-      <h2>Why i changed it:</h2>
+      <section class="grid-alignment">
+        <div>
+          <h3>What was changed:</h3>
+          <ul>
+            <li>Styling on modal picture for alignment across screens. Class Modal-open.</li>
+            <li>Removed background-color on form errors messages.</li>
+            <li>Added transition animation on modal.</li>
+            <li>Buttons for image slider moved left and right</li>
+          </ul>
+        </div>
+        <div>
+          <h3>How i changed it:</h3>
+          <ul>
+            <li>Modal alignment was done witth setting position:fixed and padding top:100px + left:0; in CSS.</li>
+            <li>Modal height:800px property for ipad and upwards to have it stretch all screen.</li>
+            <li>The open-modal class gets added through JS onclick function.</li>
+            <li>Removed the form error message by removing the color-background property.</li>
+            <li>Added CSS transition property with all 0.5s styling on modal image.</li>
+            <li>Property float set on image slider buttons.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Why i changed it:</h3>
+          <p>
+            Changed the transition because the from scale too all 1s because i got the picture to align with min-width.
+            Before it just went out of the screen with position fixed so i had a animate transition that scaled the
+            picture. That got removed and replaced with what i explained above. The reason i removed the background
+            color on the error message was because it kind of looked like a overkill and a bit too much. Changed too
+            font-weight bold instead. For the modal height i spent some time in the console too see what would work. 800
+            turned out pretty good. For the image slider i decided to do float propety to have the far left and right. I
+            tried too position them with aboslute to have them be in middle of picture which worked for desktop but not
+            mobile. Thats why i ended up with float instead.
+          </p>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer><p>First year projects</p></footer>
   </body>
 </html>

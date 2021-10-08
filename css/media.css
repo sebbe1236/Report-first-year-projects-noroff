@@ -1,0 +1,6 @@
+@media (max-width: 1000px) {
+  .grid-alignment {
+    display: flex;
+    flex-direction: column;
+  }
+}
