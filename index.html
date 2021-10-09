@@ -100,10 +100,12 @@
             incremental changes in the interaction design course. I also added a new property in the Woocommerce with
             tag so i could use that one for the frontpage and a more detailed title on the product specific page for
             more information. Added lorum ipsum on the product description in WP woocom since before it was only 1 line
-            and that looked kind of stupid. Did change the pixel site on frontpage pictures to get rid of the big white
-            gap and fill out the page more. Also took what i learned with .then statements and rewrote some of the
-            featured JS since it returned a typeerror message in the console. Turned out it wasn`t running in the
-            correct order.
+            and that looked kind of stupid. Did change the width on frontpage pictures to get rid of the big white gap
+            and fill out the page more. Also took what i learned with .then statements and rewrote some of the featured
+            JS since it returned a typeerror message in the console of name undefined. Turned out it wasn`t running in
+            the correct order which was some of the same problems i meet during exam1. I also replaced two pictures on
+            the frontpage because i found some better looking ones. Removed the 1000px width property on the grid and
+            added width in % instead to fill it out more.
           </p>
         </div>
       </section>
@@ -121,7 +123,7 @@
           <ul>
             <li>Image logo size on mobile</li>
             <li>h1 Fonts changed to Lato sans serif after tutor feedback because it was to neutral.</li>
-            <li>Changed header and footer color after tutor feedback to fit target audience</li>
+            <li>Changed header and footer color after tutor feedback to what fits target audience i think</li>
             <li>Added a own article under contact us in the get involved page for readability/aestethics.</li>
           </ul>
         </div>
@@ -130,7 +132,7 @@
           <ul>
             <li>I changed the color value on the header property in CSS.</li>
             <li>
-              Changed the logo on mobile to smaller by removing the height property and setting widtth in % instead of
+              Changed the logo on mobile to smaller by removing the height property and setting width in % instead of
               pixels.
             </li>
             <li>
@@ -148,9 +150,15 @@
             i made the assignment. Changing the width in % worked better then setting it in pixels.
           </p>
           <p>
-            Ended up changing the h1s after tutor feedback to have tthem stick out a bit more from the other H tags. I
+            Ended up changing the h1s after tutor feedback to have them stick out a bit more from the other H tags. I
             don`t know if the h1s will be better then it was before but atleast it sticks out now. So will look forward
-            to feedback on that.
+            to feedback on that. I didn`t add any JS script to the page. The reason for that was that i had a hard time
+            looking to where i actually would add it. I don`t have a contact form on it but instead a get involved page
+            and it would be kind of wierd to have a contact form on there with how the page is set up. I could maybe do
+            a slider on the frontpage but i don`t know if that would fit either because of all the pictures have
+            information about the diffrent sections of the museum. I could do a slider and a specific page maybe?. Now
+            the only need to do to one page for all the info on tours etc though so it`s less clicks to find
+            information.
           </p>
         </div>
       </section>
@@ -175,7 +183,9 @@
         <div>
           <h3>How i changed it:</h3>
           <ul>
-            <li>Modal alignment was done witth setting position:fixed and padding top:100px + left:0; in CSS.</li>
+            <li>
+              Modal alignment was done with setting position:fixed and left:0 + max-width to keep it on the screen.
+            </li>
             <li>Modal height:800px property for ipad and upwards to have it stretch all screen.</li>
             <li>The open-modal class gets added through JS onclick function.</li>
             <li>Removed the form error message by removing the color-background property.</li>
@@ -186,14 +196,18 @@
         <div>
           <h3>Why i changed it:</h3>
           <p>
-            Changed the transition because the from scale too all 1s because i got the picture to align with min-width.
-            Before it just went out of the screen with position fixed so i had a animate transition that scaled the
-            picture. That got removed and replaced with what i explained above. The reason i removed the background
-            color on the error message was because it kind of looked like a overkill and a bit too much. Changed too
-            font-weight bold instead. For the modal height i spent some time in the console too see what would work. 800
-            turned out pretty good. For the image slider i decided to do float propety to have the far left and right. I
-            tried too position them with aboslute to have them be in middle of picture which worked for desktop but not
-            mobile. Thats why i ended up with float instead.
+            Changed the transition on the modal because scale didn`t work nicely on the screen. Before it just went out
+            of the screen with transition scale so changed it to position fixed. I added min-width also so it keeps
+            aligned center on the screen. I think that worked out better even though it still isn`t a nice modal.
+            Waiting on tutor feedback for some tips and tricks to improve it. The reason i removed the background color
+            on the error message was because it kind of looked like a overkill and a bit too much for the interaction
+            design since it was a big change and also went across the whole screen. I think it would make the user get a
+            strong reaction in the wrong way so changed too font-weight bold instead to make it clear but moderate. For
+            the modal height i spent some time in the console too see what would work. 800 turned out pretty good. For
+            the image slider buttons i decided to do float propety to have the buttons for the slider far left and right
+            too see what you guys think about that. I tried too position them with aboslute to have them be in middle of
+            picture which worked for desktop but not mobile. Thats why i ended up with float instead. I think overall it
+            was minor changes and looking forward too feedback on those.
           </p>
         </div>
       </section>
