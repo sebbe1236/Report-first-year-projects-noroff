@@ -54,6 +54,7 @@ footer {
   padding: 15px;
   border: 3px solid black;
   margin: 10px;
+  border-radius: 15px;
 }
 footer p {
   text-align: center;
@@ -61,4 +62,8 @@ footer p {
   font-size: medium;
   font-style: italic;
   font-weight: bold;
+}
+
+.grid-alignment li {
+  padding: 5px;
 }
